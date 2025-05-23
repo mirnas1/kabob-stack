@@ -4,7 +4,6 @@
     const popBtn    = document.getElementById('pop-btn');
     const input     = document.getElementById('value-input');
   
-    // color palette for kabobs
     const palette = [
       '#f1c40f','#e67e22','#c0392b',
       '#9b59b6','#2980b9','#27ae60'
@@ -29,7 +28,7 @@
       }
     });
   
-    // drag-and-drop for arrows
+
     let dragItem = null, offsetX = 0, offsetY = 0;
     document.querySelectorAll('.arrow').forEach(arrow => {
       arrow.addEventListener('mousedown', e => {
