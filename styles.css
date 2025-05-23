@@ -22,12 +22,8 @@ body {
     display: inline-block;    
     position: relative;         
     padding: 10px 20px;       
-   
-    /* pita colors */
     background: #f5e1a4;       
     border: 3px solid #c79c53;  
-  
-    /* big top corners, smaller bottom corners */
     border-radius: 60px 60px 30px 30px;
   }
   
@@ -43,28 +39,26 @@ body {
   }
 
 #shop-logo {
-    background-color: #e60000;      /* bright kebab-shop red */
-    padding: 20px 0;                /* top/bottom padding */
-    border-top:    4px solid #000;  /* thick black frame */
+    background-color: #e60000;     
+    padding: 20px 0;               
+    border-top:    4px solid #000;  
     border-bottom: 4px solid #000;
-    margin-bottom: 20px;            /* space down to your controls */
+    margin-bottom: 20px;          
   }
   
   #shop-logo h1 {
     margin: 0;
-    font-family: 'Anton', sans-serif; /* or fallback to Impact */
-    font-size: 3rem;                   /* adjust as you like */
+    font-family: 'Anton', sans-serif; 
+    font-size: 3rem;                  
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    /* faux-outline with four shadows for that stamped look */
     text-shadow:
       -2px -2px 0 #000,
        2px -2px 0 #000,
       -2px  2px 0 #000,
        2px  2px 0 #000;
   }
-  
 
   .arrow {
     position: absolute;
